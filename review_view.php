@@ -106,7 +106,7 @@ include "review.php";
 <body>
 
   <div class="container">
-    <h1>Add event</h1>
+    <h1>review</h1>
 
     <form action="<?php echo ($_SERVER["PHP_SELF"]);?>" method="post">
     <div class="field">

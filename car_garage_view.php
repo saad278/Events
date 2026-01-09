@@ -130,7 +130,7 @@ include "database.php";
 include "car_garage.php";
 ?>
   <div class="login-container">
-    <h1>food and drinks</h1>
+    <h1>car garage</h1>
     
 <br>
 <form action="car_garage_view.php?id=<?php echo $id; ?>" method="post">

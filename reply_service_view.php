@@ -106,7 +106,7 @@ include "reply_service.php";
 <body>
 
   <div class="container">
-    <h1>Add event</h1>
+    <h1>reply service</h1>
 
     <form action="<?php echo ($_SERVER["PHP_SELF"]);?>" method="post">
     <div class="field">

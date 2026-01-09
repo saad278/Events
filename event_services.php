@@ -82,6 +82,9 @@ hr {
 include "database.php";
   ?>
   <?php
+$sql="select photo from photos where p_id='6'";
+  ?>
+  <?php
   if(isset($_REQUEST["id"])){
     $id=$_REQUEST["id"];
 $sql="select * from events where e_id='$id'";
@@ -95,7 +98,7 @@ $sql="select * from events where e_id='$id'";
     <!-- Left Section -->
     <div class="left">
         <h1 class="title">Home of events</h1>
-        <img src="c:\Users\ACER\Desktop\New folder\4d2e6dabe53fd71151c02692ba709815.jpg" class="event-img" alt="Events Image">
+        <img src="'.$row['photo'].'" class="event-img" alt="Events Image">
     </div>
 
     <!-- Right Section -->
@@ -109,14 +112,40 @@ $sql="select * from events where e_id='$id'";
 
             <a href="car_garage_view.php?id='.$row['e_id'].'">car garage</a>
             <hr>
+             <a href="show_event_details.php?id='.$row['e_id'].'">details</a>
+             <hr>
+             <a href="edit_event_view.php?id='.$row['e_id'].'">edit</a>
+             <hr>
+             <a href="accessories_view.php?id='.$row['e_id'].'">accessories</a>
+             <hr>
+             <a href="advertising_view.php?id='.$row['e_id'].'">advertising</a>
+             <hr>
+             <a href="bazar_view.php?id='.$row['e_id'].'">accessories</a>
+             <hr>
+             <a href="compitions_view.php?id='.$row['e_id'].'">compitions</a>
+             <hr>
+             <a href="conditions_view.php?id='.$row['e_id'].'">conditions</a>
+             <hr>
+             <a href="date_time_view.php?id='.$row['e_id'].'">date and time</a>
+             <hr>
+             <a href="guide_view.php?id='.$row['e_id'].'">guide</a>
+             <hr>
+             <a href="image_view.php?id='.$row['e_id'].'">image</a>
+             <hr>
+             <a href="kids_room_view.php?id='.$row['e_id'].'">kids room</a>
+             <hr>
+             <a href="security_view.php?id='.$row['e_id'].'">security</a>
+             <hr>
+             <a href="sponser_view.php?id='.$row['e_id'].'">sponser</a>
+             <hr>
+             <a href="timeline_view.php?id='.$row['e_id'].'">timeline</a>
+             <hr>
+             <a href="wifi_view.php?id='.$row['e_id'].'">wifi</a>
+             <hr>
 
-            <a href="review_view.php?id='.$row['e_id'].'">reviews</a>
-            <hr>
 
-            <a href="show_review.php?id='.$row['e_id'].'">show reviews</a>
-            <hr>
+            
 
-            <a href="#">provider login</a>
         </div>
     </div>
 

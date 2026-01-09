@@ -3,7 +3,7 @@ if(isset($_POST["add"]))
 {
 $participant=$_POST['participant'];
 $event=$_POST['event'];
-$sql ="INSERT INTO reviews(event,participant)
+$sql ="INSERT INTO favorites(event,participant)
 VALUES('$event','$participant')";
 
     

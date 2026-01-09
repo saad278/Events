@@ -3,7 +3,7 @@
 $servername="localhost";
 $username="root";
 $password="";
-$dbname="events_management";
+$dbname="events";
 
 $conn= new mysqli($servername,$username,$password,$dbname);
 $conn->set_charset("utf8");

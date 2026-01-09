@@ -106,9 +106,13 @@ include "place.php";
 <body>
 
   <div class="container">
-    <h1>Add event</h1>
+    <h1>place</h1>
 
     <form action="place_view.php?id=<?php echo $id; ?>" method="post">
+      <div class="field">
+        <label>city</label>
+        <input type="text" placeholder="Party" name="e_city">
+      </div>
       <div class="field">
         <label>place</label>
         <input type="text" placeholder="Party" name="e_place">

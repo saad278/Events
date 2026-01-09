@@ -110,7 +110,7 @@ include "massage_participant.php";
 
     <form action="<?php echo ($_SERVER["PHP_SELF"]);?>" method="post">
       <div class="field">
-        <label>sender</label>
+        <label>massage participant</label>
         <input type="text" placeholder="" name="sender">
       </div>
 

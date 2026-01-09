@@ -156,10 +156,10 @@ tbody tr:hover {
                 '.$row['e_type'].'
                 </td>
                 <td>'.$row['e_place'].'</td>
-                </tr>
                 <td>
-                <a class="nav-link" href="event_services.php?id='.$row['e_id'].'">services</a>
+                <a class="nav-link" href="show_event_details.php?id='.$row['e_id'].'">details</a>
                 </td>
+                </tr>
                 </tr>
                 
 

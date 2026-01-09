@@ -106,7 +106,7 @@ include "conditions.php";
 <body>
 
   <div class="container">
-    <h1>Add event</h1>
+    <h1>conditions</h1>
 
     <form action="<?php echo ($_SERVER["PHP_SELF"]);?>" method="post">
     

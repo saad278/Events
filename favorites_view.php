@@ -860,7 +860,7 @@ include "favorites.php";
                         </svg>
                     </div>
                 </div>
-                <h1>login</h1>
+                <h1>favorites</h1>
             </div>
             
             <form action="admin_home.html" class="login-form" id="loginForm" novalidate>

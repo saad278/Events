@@ -130,7 +130,7 @@ include "database.php";
 include "food_drinks.php";
 ?>
   <div class="login-container">
-    <h1>food and drinks</h1>
+    <h1>state</h1>
     
 <br>
 <form action="state_view.php?id=<?php echo $id; ?>" method="post">
